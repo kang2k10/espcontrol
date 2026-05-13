@@ -66,7 +66,8 @@ esphome:
 # PSRAM (video frame buffer memory)
 # ---------------------------------------------------------------------------
 psram:
-  speed: 200MHz
+  mode: octal
+  speed: 80MHz
 
 # ---------------------------------------------------------------------------
 # OTA updates (ESPHome native + HTTP-based)
