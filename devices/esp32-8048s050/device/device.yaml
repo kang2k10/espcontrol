@@ -125,7 +125,8 @@ light:
 i2c:
   sda: GPIO19
   scl: GPIO20
-  scan: false
+  address: 0x5D
+  scan: true
   frequency: 400kHz
 
 touchscreen:
@@ -139,7 +140,7 @@ touchscreen:
 # Display (4.3" 480x800 MIPI DSI panel)
 # ---------------------------------------------------------------------------
 display:
-  - platform: rpi_dpi_rgb
+  - platform: mipi_rgb
     id: my_display
     update_interval: never
     auto_clear_enabled: false
