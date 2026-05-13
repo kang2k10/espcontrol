@@ -198,7 +198,7 @@ jobs:
         run: >-
           python3 scripts/firmware_release.py verify-pages
           --version "${{ needs.download-firmware.outputs.release_tag }}"
-          --base-url "https://jtenniswood.github.io/espcontrol"
+          --base-url "https://kang2k10.github.io/espcontrol"
           --slugs ${{ needs.download-firmware.outputs.device_slugs }}
           --retries 10
           --delay 15
