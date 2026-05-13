@@ -144,7 +144,6 @@ display:
     update_interval: never
     auto_clear_enabled: false
     color_order: RGB
-    rotation: 270
     dimensions:
       width: 800
       height: 480
