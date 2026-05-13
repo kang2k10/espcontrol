@@ -139,7 +139,7 @@ touchscreen:
 # Display (4.3" 480x800 MIPI DSI panel)
 # ---------------------------------------------------------------------------
 display:
-  - platform: mipi_dsi
+  - platform: rpi_dpi_rgb
     id: my_display
     update_interval: never
     auto_clear_enabled: false
