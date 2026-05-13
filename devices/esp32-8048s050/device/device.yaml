@@ -87,7 +87,7 @@ packages:
 # ---------------------------------------------------------------------------
 output:
   - platform: ledc
-    pin: GPIO23
+    pin: GPIO2
     id: gpio_backlight_pwm
     frequency: 100Hz
     inverted: false
