@@ -125,7 +125,7 @@ light:
 i2c:
   sda: GPIO19
   scl: GPIO20
- # address: 0x5D
+ # 
   scan: true
   frequency: 400kHz
 
@@ -133,6 +133,7 @@ touchscreen:
   - platform: gt911
     id: my_touchscreen
     display: my_display
+    address: 0x5D
     on_touch:
       - script.execute: screensaver_wake
 
