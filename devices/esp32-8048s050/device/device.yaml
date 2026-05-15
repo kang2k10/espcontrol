@@ -125,7 +125,7 @@ light:
 i2c:
   sda: GPIO19
   scl: GPIO20
-  address: 0x5D
+ # address: 0x5D
   scan: true
   frequency: 400kHz
 
